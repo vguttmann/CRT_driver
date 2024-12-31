@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/Counter.vhd",
+  "InstLine" : 5,
+  "InstName" : "primary_counter",
+  "ModuleFile" : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/Counter.vhd",
+  "ModuleLine" : 5,
+  "ModuleName" : "primary_counter"
+ }
+]

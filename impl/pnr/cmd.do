@@ -1,0 +1,15 @@
+-d /home/vguttmann/Documents/Programming/FPGA/CRT_driver/impl/gwsynthesis/CRT_driver.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst /home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst
+-cfg /home/vguttmann/Documents/Programming/FPGA/CRT_driver/impl/pnr/device.cfg
+-sdc /home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

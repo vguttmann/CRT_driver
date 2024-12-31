@@ -1,0 +1,57 @@
+//Copyright (C)2014-2024 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//Tool Version: V1.9.10.03
+//Part Number: GW1NR-LV9QN88PC6/I5
+//Device: GW1NR-9
+//Device Version: C
+//Created Time: Tue 12 31 11:04:26 2024
+
+IO_LOC "o_outpu_ena" 15;
+IO_PORT "o_outpu_ena" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_blank_hor" 13;
+IO_PORT "o_blank_hor" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_blank_ver" 14;
+IO_PORT "o_blank_ver" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_ver_counter[9]" 39;
+IO_PORT "o_pixel_ver_counter[9]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_ver_counter[8]" 38;
+IO_PORT "o_pixel_ver_counter[8]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_ver_counter[7]" 37;
+IO_PORT "o_pixel_ver_counter[7]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_ver_counter[6]" 36;
+IO_PORT "o_pixel_ver_counter[6]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_ver_counter[5]" 35;
+IO_PORT "o_pixel_ver_counter[5]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_ver_counter[4]" 34;
+IO_PORT "o_pixel_ver_counter[4]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_ver_counter[3]" 33;
+IO_PORT "o_pixel_ver_counter[3]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_ver_counter[2]" 32;
+IO_PORT "o_pixel_ver_counter[2]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_ver_counter[1]" 31;
+IO_PORT "o_pixel_ver_counter[1]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_ver_counter[0]" 30;
+IO_PORT "o_pixel_ver_counter[0]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_hor_counter[9]" 29;
+IO_PORT "o_pixel_hor_counter[9]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_hor_counter[8]" 28;
+IO_PORT "o_pixel_hor_counter[8]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_hor_counter[7]" 27;
+IO_PORT "o_pixel_hor_counter[7]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_hor_counter[6]" 26;
+IO_PORT "o_pixel_hor_counter[6]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_hor_counter[5]" 25;
+IO_PORT "o_pixel_hor_counter[5]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_hor_counter[4]" 20;
+IO_PORT "o_pixel_hor_counter[4]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_hor_counter[3]" 19;
+IO_PORT "o_pixel_hor_counter[3]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_hor_counter[2]" 18;
+IO_PORT "o_pixel_hor_counter[2]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_hor_counter[1]" 17;
+IO_PORT "o_pixel_hor_counter[1]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "o_pixel_hor_counter[0]" 16;
+IO_PORT "o_pixel_hor_counter[0]" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "i_clock" 52;
+IO_PORT "i_clock" IO_TYPE=LVCMOS18 PULL_MODE=UP BANK_VCCIO=1.8;
