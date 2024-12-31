@@ -5,6 +5,16 @@
    "Library" : "work",
    "Path" : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/Counter.vhd",
    "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/debounce.vhd",
+   "Type" : "vhdl"
   }
  ],
  "IncludePath" : [

@@ -5,6 +5,8 @@
     <Device id="GW1NR-9C" package="QFN88P" speed="6" partNumber="GW1NR-LV9QN88PC6/I5"/>
     <FileList>
         <File path="/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/Counter.vhd" type="vhdl"/>
+        <File path="/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd" type="vhdl"/>
+        <File path="/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/debounce.vhd" type="vhdl"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>

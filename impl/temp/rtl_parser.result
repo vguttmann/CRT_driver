@@ -6,5 +6,31 @@
   "ModuleFile" : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/Counter.vhd",
   "ModuleLine" : 5,
   "ModuleName" : "primary_counter"
+ },
+ {
+  "InstFile" : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd",
+  "InstLine" : 26,
+  "InstName" : "ps2_keyboard",
+  "ModuleFile" : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd",
+  "ModuleLine" : 26,
+  "ModuleName" : "ps2_keyboard",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd",
+    "InstLine" : 68,
+    "InstName" : "debounce_ps2_clk",
+    "ModuleFile" : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/debounce.vhd",
+    "ModuleLine" : 27,
+    "ModuleName" : "debounce"
+   },
+   {
+    "InstFile" : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd",
+    "InstLine" : 71,
+    "InstName" : "debounce_ps2_data",
+    "ModuleFile" : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/debounce.vhd",
+    "ModuleLine" : 27,
+    "ModuleName" : "debounce"
+   }
+  ]
  }
 ]

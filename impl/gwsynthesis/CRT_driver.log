@@ -3,8 +3,15 @@ Running parser ...
 Analyzing VHDL file '/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/Counter.vhd'
 Analyzing entity 'primary_counter'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/Counter.vhd":5)
 Analyzing architecture 'rtl'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/Counter.vhd":21)
-Processing 'primary_counter(rtl)'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/Counter.vhd":5)
-NOTE  (EX0101) : Current top module is "primary_counter"
+Analyzing VHDL file '/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd'
+Analyzing entity 'ps2_keyboard'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd":26)
+Analyzing architecture 'logic'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd":38)
+Analyzing VHDL file '/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/debounce.vhd'
+Analyzing entity 'debounce'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/debounce.vhd":27)
+Analyzing architecture 'logic'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/debounce.vhd":36)
+Processing 'ps2_keyboard(logic)'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd":26)
+Processing 'debounce(counter_size=8)(logic)'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/debounce.vhd":27)
+NOTE  (EX0101) : Current top module is "ps2_keyboard"
 [5%] Running netlist conversion ...
 Running device independent optimization ...
 [10%] Optimizing Phase 0 completed
