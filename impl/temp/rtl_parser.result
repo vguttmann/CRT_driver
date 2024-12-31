@@ -32,5 +32,13 @@
     "ModuleName" : "debounce"
    }
   ]
+ },
+ {
+  "InstFile" : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd",
+  "InstLine" : 5,
+  "InstName" : "charbuffer",
+  "ModuleFile" : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd",
+  "ModuleLine" : 5,
+  "ModuleName" : "charbuffer"
  }
 ]

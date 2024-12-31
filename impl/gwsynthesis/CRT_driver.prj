@@ -7,6 +7,7 @@
         <File path="/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/Counter.vhd" type="vhdl"/>
         <File path="/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd" type="vhdl"/>
         <File path="/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/debounce.vhd" type="vhdl"/>
+        <File path="/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd" type="vhdl"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>

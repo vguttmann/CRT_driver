@@ -1,5 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="ps2_keyboard" Register="34" Alu="11" Lut="11" T_Register="58(34)" T_Alu="27(11)" T_Lut="19(11)">
- <SubModule name="debounce_ps2_clk" Register="12" Alu="8" Lut="4" T_Register="12(12)" T_Alu="8(8)" T_Lut="4(4)"/>
- <SubModule name="debounce_ps2_data" Register="12" Alu="8" Lut="4" T_Register="12(12)" T_Alu="8(8)" T_Lut="4(4)"/>
-</Module>
+<Module name="charbuffer"/>

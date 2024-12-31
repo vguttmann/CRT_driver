@@ -2,17 +2,45 @@ GowinSynthesis start
 Running parser ...
 Analyzing VHDL file '/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/Counter.vhd'
 Analyzing entity 'primary_counter'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/Counter.vhd":5)
-Analyzing architecture 'rtl'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/Counter.vhd":21)
+Analyzing architecture 'rtl'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/Counter.vhd":18)
 Analyzing VHDL file '/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd'
 Analyzing entity 'ps2_keyboard'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd":26)
 Analyzing architecture 'logic'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd":38)
 Analyzing VHDL file '/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/debounce.vhd'
 Analyzing entity 'debounce'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/debounce.vhd":27)
 Analyzing architecture 'logic'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/debounce.vhd":36)
-Processing 'ps2_keyboard(logic)'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/ps2_keyboard.vhd":26)
-Processing 'debounce(counter_size=8)(logic)'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/debounce.vhd":27)
-NOTE  (EX0101) : Current top module is "ps2_keyboard"
+Analyzing VHDL file '/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd'
+Analyzing entity 'charbuffer'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":5)
+WARN  (EX4596) : Entity 'charbuffer' does not have an architecture("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":20)
+Processing 'charbuffer()'("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":5)
+NOTE  (EX0101) : Current top module is "charbuffer"
+WARN  (EX0211) : The output port "o_pixel_hor_counter[9]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":14)
+WARN  (EX0211) : The output port "o_pixel_hor_counter[8]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":14)
+WARN  (EX0211) : The output port "o_pixel_hor_counter[7]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":14)
+WARN  (EX0211) : The output port "o_pixel_hor_counter[6]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":14)
+WARN  (EX0211) : The output port "o_pixel_hor_counter[5]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":14)
+WARN  (EX0211) : The output port "o_pixel_hor_counter[4]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":14)
+WARN  (EX0211) : The output port "o_pixel_hor_counter[3]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":14)
+WARN  (EX0211) : The output port "o_pixel_hor_counter[2]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":14)
+WARN  (EX0211) : The output port "o_pixel_hor_counter[1]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":14)
+WARN  (EX0211) : The output port "o_pixel_hor_counter[0]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":14)
+WARN  (EX0211) : The output port "o_pixel_ver_counter[9]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":15)
+WARN  (EX0211) : The output port "o_pixel_ver_counter[8]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":15)
+WARN  (EX0211) : The output port "o_pixel_ver_counter[7]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":15)
+WARN  (EX0211) : The output port "o_pixel_ver_counter[6]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":15)
+WARN  (EX0211) : The output port "o_pixel_ver_counter[5]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":15)
+WARN  (EX0211) : The output port "o_pixel_ver_counter[4]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":15)
+WARN  (EX0211) : The output port "o_pixel_ver_counter[3]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":15)
+WARN  (EX0211) : The output port "o_pixel_ver_counter[2]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":15)
+WARN  (EX0211) : The output port "o_pixel_ver_counter[1]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":15)
+WARN  (EX0211) : The output port "o_pixel_ver_counter[0]" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":15)
+WARN  (EX0211) : The output port "o_blank_ver" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":16)
+WARN  (EX0211) : The output port "o_blank_hor" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":17)
+WARN  (EX0211) : The output port "o_outpu_ena" of module "charbuffer" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":18)
 [5%] Running netlist conversion ...
+WARN  (CV0016) : Input i_clock is unused("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":8)
+WARN  (CV0016) : Input i_new_char is unused("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":9)
+WARN  (CV0016) : Input i_ps2_code is unused("/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/charbuffer.vhd":10)
 Running device independent optimization ...
 [10%] Optimizing Phase 0 completed
 [15%] Optimizing Phase 1 completed
