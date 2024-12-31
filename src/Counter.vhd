@@ -6,10 +6,7 @@ entity primary_counter is
   port (
     -- Clock Frequency 27 MHz - adjust elsewhere?
     i_clock             : in  std_logic;
-    
-    -- deciding how to drive those once the frame layout is clea
-    -- o_char_ver_counter  : out std_logic_vector(7 downto 0);
-    -- o_char_hor_counter  : out std_logic_vector(7 downto 0);
+   
     o_pixel_hor_counter : out std_logic_vector(9 downto 0);
     o_pixel_ver_counter : out std_logic_vector(9 downto 0);
     o_blank_ver         : out std_logic;
