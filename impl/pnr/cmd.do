@@ -3,7 +3,6 @@
 -pn GW1NR-LV9QN88PC6/I5
 -cst /home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst
 -cfg /home/vguttmann/Documents/Programming/FPGA/CRT_driver/impl/pnr/device.cfg
--sdc /home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.sdc
 -bit
 -tr
 -ph
