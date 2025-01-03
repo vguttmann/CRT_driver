@@ -2,52 +2,28 @@ Reading netlist file: "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/imp
 Parsing netlist file "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/impl/gwsynthesis/CRT_driver.vg" completed
 Processing netlist completed
 Reading constraint file: "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst"
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":10 | Can't find object named 'o_outpu_ena'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":11 | Can't find object named 'o_outpu_ena'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":12 | Can't find object named 'o_blank_hor'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":13 | Can't find object named 'o_blank_hor'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":14 | Can't find object named 'o_blank_ver'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":15 | Can't find object named 'o_blank_ver'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":16 | Can't find object named 'o_pixel_ver_counter[9]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":17 | Can't find object named 'o_pixel_ver_counter[9]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":18 | Can't find object named 'o_pixel_ver_counter[8]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":19 | Can't find object named 'o_pixel_ver_counter[8]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":20 | Can't find object named 'o_pixel_ver_counter[7]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":21 | Can't find object named 'o_pixel_ver_counter[7]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":22 | Can't find object named 'o_pixel_ver_counter[6]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":23 | Can't find object named 'o_pixel_ver_counter[6]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":24 | Can't find object named 'o_pixel_ver_counter[5]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":25 | Can't find object named 'o_pixel_ver_counter[5]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":26 | Can't find object named 'o_pixel_ver_counter[4]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":27 | Can't find object named 'o_pixel_ver_counter[4]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":28 | Can't find object named 'o_pixel_ver_counter[3]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":29 | Can't find object named 'o_pixel_ver_counter[3]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":30 | Can't find object named 'o_pixel_ver_counter[2]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":31 | Can't find object named 'o_pixel_ver_counter[2]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":32 | Can't find object named 'o_pixel_ver_counter[1]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":33 | Can't find object named 'o_pixel_ver_counter[1]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":34 | Can't find object named 'o_pixel_ver_counter[0]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":35 | Can't find object named 'o_pixel_ver_counter[0]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":36 | Can't find object named 'o_pixel_hor_counter[9]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":37 | Can't find object named 'o_pixel_hor_counter[9]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":38 | Can't find object named 'o_pixel_hor_counter[8]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":39 | Can't find object named 'o_pixel_hor_counter[8]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":40 | Can't find object named 'o_pixel_hor_counter[7]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":41 | Can't find object named 'o_pixel_hor_counter[7]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":42 | Can't find object named 'o_pixel_hor_counter[6]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":43 | Can't find object named 'o_pixel_hor_counter[6]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":44 | Can't find object named 'o_pixel_hor_counter[5]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":45 | Can't find object named 'o_pixel_hor_counter[5]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":46 | Can't find object named 'o_pixel_hor_counter[4]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":47 | Can't find object named 'o_pixel_hor_counter[4]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":48 | Can't find object named 'o_pixel_hor_counter[3]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":49 | Can't find object named 'o_pixel_hor_counter[3]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":50 | Can't find object named 'o_pixel_hor_counter[2]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":51 | Can't find object named 'o_pixel_hor_counter[2]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":52 | Can't find object named 'o_pixel_hor_counter[1]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":53 | Can't find object named 'o_pixel_hor_counter[1]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":54 | Can't find object named 'o_pixel_hor_counter[0]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":55 | Can't find object named 'o_pixel_hor_counter[0]'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":56 | Can't find object named 'i_clock'
-ERROR  (CT1135) : "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/src/CRT_driver.cst":57 | Can't find object named 'i_clock'
-Physical Constraint parsed completed with errors
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/impl/pnr/CRT_driver.power.html" completed
+Generate file "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/impl/pnr/CRT_driver.pin.html" completed
+Generate file "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/impl/pnr/CRT_driver.rpt.html" completed
+Generate file "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/impl/pnr/CRT_driver.rpt.txt" completed
+Generate file "/home/vguttmann/Documents/Programming/FPGA/CRT_driver/impl/pnr/CRT_driver.tr.html" completed
+Fri Jan  3 11:28:35 2025
+
